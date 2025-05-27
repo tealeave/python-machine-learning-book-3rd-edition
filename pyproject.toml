@@ -7,12 +7,12 @@ package-mode = false   # research repo; not published as a package
 readme = "README.md"
 
 [tool.poetry.dependencies]
+tensorflow     = "^2.18.0"       # added
+torch          = "^2.1.0"
 python         = ">=3.10,<3.12"
-numpy          = "^2.2.5"
+numpy          = "~2.0.0"
 scipy          = "^1.15.2"
 scikit-learn   = "^1.2"          # added; separate from torch
-torch          = "^2.7.0"
-tensorflow     = "^2.13.0"       # added
 xgboost        = "^3.0.0"
 shap           = "^0.47.2"
 optuna         = "^4.3.0"
